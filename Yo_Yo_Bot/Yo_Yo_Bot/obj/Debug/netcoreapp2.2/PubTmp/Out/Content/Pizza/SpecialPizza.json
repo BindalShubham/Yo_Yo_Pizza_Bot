@@ -1,0 +1,78 @@
+﻿{
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "backgroundImage": "https://i.ibb.co/mHknMXQ/1eac389824b82539c01754d73f79dc59.jpg",
+  "body": [
+    {
+      "type": "Image",
+      "url": "PIZZAIMAGE_VALUE",
+      "size": "stretch"
+    },
+    {
+      "type": "TextBlock",
+      "text": "BASE_VALUE"
+    },
+    {
+      "type": "TextBlock",
+      "text": "PIZZANAME_VALUE",
+      "weight": "bolder",
+      "size": "extraLarge",
+      "spacing": "none"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": 2,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "RATING_VALUE",
+              "fontType": "",
+              "spacing": "none"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 2,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "₹ PRICE_VALUE",
+              "horizontalAlignment": "right",
+              "weight": "bolder",
+              "fontType": "monospace",
+              "spacing": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "VEGTOPS_VALUE",
+      "size": "small",
+      "horizontalAlignment": "center",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "NONVTOPS_VALUE",
+      "size": "small",
+      "horizontalAlignment": "center",
+      "wrap": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Select Pizza",
+      "data": {
+        "PizzaChoice": "PIZZANAME_VALUE",
+        "action": "specialPizza"
+      }
+    }
+  ]
+}

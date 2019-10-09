@@ -1,0 +1,18 @@
+{
+    "name": "Pizza Bot",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "appId": "4b773df9-f726-4744-ae29-f67be20b99af",
+            "appPassword": "Yo_Yo_pizzabot_Password@a1",
+            "endpoint": "http://localhost:1205/api/messages",
+            "id": "f844b3e0-de9b-11e9-8de6-1d6a34d64912",
+            "name": "http://localhost:1205/api/messages"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "path": "C:\\Users\\ShubhamBindal\\source\\repos\\Yo_Yo_Bot\\Yo_Yo_Bot\\Yo_Yo_Bot\\Pizza Bot.bot",
+    "overrides": null
+}

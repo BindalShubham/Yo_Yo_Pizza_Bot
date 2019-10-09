@@ -1,0 +1,86 @@
+﻿{
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "backgroundImage": "",
+  "body": [
+    {
+      "type": "Image",
+      "url": "PIZZAIMAGE_VALUE",
+      "size": "stretch"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "BASE_VALUE"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "horizontalAlignment": "Right",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "₹ PRICE_VALUE",
+              "isSubtle": true,
+              "spacing": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "PIZZANAME_VALUE",
+      "weight": "bolder",
+      "size": "extraLarge",
+      "spacing": "none"
+    },
+    {
+      "type": "TextBlock",
+      "text": "**Toppings** \"TOPPINGS_VALUE\"",
+      "size": "small",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "**Cheese** \"CHEESE_VALUE\"",
+      "size": "small",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "**Sauce** \"SAUCE_VALUE\"",
+      "size": "small",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "**Location** \"LOCATION_VALUE\"",
+      "size": "small",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "**Time** \"TIME_VALUE\"",
+      "size": "small",
+      "wrap": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Confirm Order",
+      "data": {
+        "action": "confirmOrder"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+﻿{
+  "PizzaOrderDialog": {
+    "SpecialMenu": "Here's a Special Pizza Archive to choose from. 👇",
+    "SizeOptions": "How hungry are you?",
+    "CheeseOptions": "what kind of cheese would you have?",
+    "SauceOptions": "All sauces are prepared inhouse, whould you like to try our special?",
+    "DeliveryLocation": "Please provide the delivery location? My gps is currently not connected so I won't be able to confirm the location.",
+    "DeliveryTime": "Everythings set. When do you want it delivered?",
+    "PerviewOrder": "Please confirm your order.",
+    "CompleteOrder": "",
+    "ValidateSize": {
+      "DifferentPan": "We are really sorry but we dont have pan of that size, can you please choose between 6\", 8\" and 10\"",
+      "SmallPizza": "A small personal Pizza.",
+      "LargePizza": "Large Pizza for bigger hunger.",
+      "NoSize": "I cannot understand this size. You can type 6 or 8 or 10."
+    },
+    "ValidateCheese": "We dont have that kind of cheese with us.",
+    "ValidateSpecialPizza": {
+      "UseCard": "Please use the card to customize the pizza!",
+      "CustomPizza": "You can customize your pizza everyway possible. You can cancel/reset at any point in chat."
+    },
+    "ValidateSauce": "We have sent out a wizard to find ingredient for that sauce till then you can select from others.",
+    "ValidateDate": "I dont understand this date.",
+    "ValidatePreview": "Order not placed.",
+    "CreateAdaptiveCardforPizzaBase": ".\\Content\\Pizza\\Pizza_Base_Tops.json",
+    "CreateAdaptiveCardCustomizePizza": ".\\Content\\Pizza\\CustomizePizza.json",
+    "CreateMenuCarousal": ".\\Content\\Pizza\\SpecialPizza.json",
+    "PreviewOrderAttachment": ".\\Content\\Pizza\\PreviewOrder.json",
+
+  }
+}

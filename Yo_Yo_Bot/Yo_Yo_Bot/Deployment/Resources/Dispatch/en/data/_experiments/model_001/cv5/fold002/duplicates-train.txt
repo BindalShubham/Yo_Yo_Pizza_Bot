@@ -1,0 +1,5 @@
+Utterance	Intents
+be quiet	l_General, q_Chitchat
+sounds good	l_General, q_Chitchat
+shut up	l_General, q_Chitchat
+pardon	l_General, q_Chitchat

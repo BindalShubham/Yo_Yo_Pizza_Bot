@@ -1,0 +1,9 @@
+Utterance	Intents
+go away	l_General, q_Chitchat
+be quiet	l_General, q_Chitchat
+what's new	q_Chitchat, q_Faq
+shut up	l_General, q_Chitchat
+stop talking	l_General, q_Chitchat
+sounds good	l_General, q_Chitchat
+pardon	l_General, q_Chitchat
+yes	l_General, q_Chitchat

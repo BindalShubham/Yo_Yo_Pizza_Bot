@@ -1,0 +1,53 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "0.5",
+  "backgroundImage": "https://previews.123rf.com/images/kusuriuri/kusuriuri1707/kusuriuri170700004/81636917-seamless-pattern-with-pizza-design-elements-on-white-background.jpg",
+  "selectAction": {
+    "type": "Action.Submit",
+    "title": "Customize Pizza",
+    "data": {
+      "PizzaChoice": "customize",
+      "action": "specialPizza"
+    }
+  },
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": 1,
+          "verticalContentAlignment": "center",
+
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://cdn0.iconfinder.com/data/icons/restaurant-53/64/Food-junk-pizza-fast_food-512.png",
+              "size": "medium"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 6,
+          "verticalContentAlignment": "center",
+          "style": "emphasis",
+
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Click Here to Customize your Pizza!",
+              "color": "warning",
+              "weight": "bolder",
+              "wrap": true,
+              "size": "Large",
+              "horizontalAlignment": "center"
+            }
+
+          ]
+        }
+      ]
+    }
+  ]
+}

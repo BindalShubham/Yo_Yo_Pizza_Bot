@@ -1,0 +1,685 @@
+{
+  "error": null,
+  "id": "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/Microsoft.Resources/deployments/deployment_dry_run",
+  "name": "deployment_dry_run",
+  "properties": {
+    "correlationId": "b5eae874-47b7-4733-aeb4-22d252831cde",
+    "debugSetting": null,
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/Microsoft.Web/serverfarms/Yo_Yo_pizzabot-qvj5iir",
+            "resourceGroup": "Yo_Yo_pizzabot",
+            "resourceName": "Yo_Yo_pizzabot-qvj5iir",
+            "resourceType": "Microsoft.Web/serverfarms"
+          }
+        ],
+        "id": "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/Microsoft.Web/sites/YoYopizzabot-qvj5iir",
+        "resourceGroup": "Yo_Yo_pizzabot",
+        "resourceName": "YoYopizzabot-qvj5iir",
+        "resourceType": "Microsoft.Web/sites"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/Microsoft.Insights/components/Yo_Yo_pizzabot-qvj5iir",
+            "resourceGroup": "Yo_Yo_pizzabot",
+            "resourceName": "Yo_Yo_pizzabot-qvj5iir",
+            "resourceType": "Microsoft.Insights/components"
+          }
+        ],
+        "id": "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/Microsoft.BotService/botServices/Yo_Yo_pizzabot-qvj5iir",
+        "resourceGroup": "Yo_Yo_pizzabot",
+        "resourceName": "Yo_Yo_pizzabot-qvj5iir",
+        "resourceType": "Microsoft.BotService/botServices"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/Microsoft.Web/Sites/YoYopizzabot-qnahost-qvj5iir",
+            "resourceGroup": "Yo_Yo_pizzabot",
+            "resourceName": "YoYopizzabot-qnahost-qvj5iir",
+            "resourceType": "Microsoft.Web/Sites"
+          },
+          {
+            "id": "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/Microsoft.Search/searchServices/yoyopizzabot-search-qvj5iir",
+            "resourceGroup": "Yo_Yo_pizzabot",
+            "resourceName": "yoyopizzabot-search-qvj5iir",
+            "resourceType": "Microsoft.Search/searchServices"
+          },
+          {
+            "id": "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/microsoft.insights/components/Yo_Yo_pizzabot-qvj5iir",
+            "resourceGroup": "Yo_Yo_pizzabot",
+            "resourceName": "Yo_Yo_pizzabot-qvj5iir",
+            "resourceType": "microsoft.insights/components"
+          }
+        ],
+        "id": "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/Microsoft.CognitiveServices/accounts/Yo_Yo_pizzabot-qna-qvj5iir",
+        "resourceGroup": "Yo_Yo_pizzabot",
+        "resourceName": "Yo_Yo_pizzabot-qna-qvj5iir",
+        "resourceType": "Microsoft.CognitiveServices/accounts"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/Microsoft.Web/serverFarms/Yo_Yo_pizzabot-qvj5iir",
+            "resourceGroup": "Yo_Yo_pizzabot",
+            "resourceName": "Yo_Yo_pizzabot-qvj5iir",
+            "resourceType": "Microsoft.Web/serverFarms"
+          }
+        ],
+        "id": "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/Microsoft.Web/sites/YoYopizzabot-qnahost-qvj5iir",
+        "resourceGroup": "Yo_Yo_pizzabot",
+        "resourceName": "YoYopizzabot-qnahost-qvj5iir",
+        "resourceType": "Microsoft.Web/sites"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/Microsoft.Web/Sites/YoYopizzabot-qnahost-qvj5iir",
+            "resourceGroup": "Yo_Yo_pizzabot",
+            "resourceName": "YoYopizzabot-qnahost-qvj5iir",
+            "resourceType": "Microsoft.Web/Sites"
+          },
+          {
+            "id": "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/Microsoft.Insights/components/Yo_Yo_pizzabot-qvj5iir",
+            "resourceGroup": "Yo_Yo_pizzabot",
+            "resourceName": "Yo_Yo_pizzabot-qvj5iir",
+            "resourceType": "Microsoft.Insights/components"
+          },
+          {
+            "id": "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/Microsoft.Search/searchServices/yoyopizzabot-search-qvj5iir",
+            "resourceGroup": "Yo_Yo_pizzabot",
+            "resourceName": "yoyopizzabot-search-qvj5iir",
+            "resourceType": "Microsoft.Search/searchServices"
+          },
+          {
+            "actionName": "listAdminKeys",
+            "apiVersion": "2015-08-19",
+            "id": "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/Microsoft.Search/searchServices/yoyopizzabot-search-qvj5iir",
+            "resourceGroup": "Yo_Yo_pizzabot",
+            "resourceName": "yoyopizzabot-search-qvj5iir",
+            "resourceType": "Microsoft.Search/searchServices"
+          },
+          {
+            "apiVersion": "2015-05-01",
+            "id": "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/Microsoft.Insights/components/Yo_Yo_pizzabot-qvj5iir",
+            "resourceGroup": "Yo_Yo_pizzabot",
+            "resourceName": "Yo_Yo_pizzabot-qvj5iir",
+            "resourceType": "Microsoft.Insights/components"
+          }
+        ],
+        "id": "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/Microsoft.Web/sites/YoYopizzabot-qnahost-qvj5iir/config/appsettings",
+        "resourceGroup": "Yo_Yo_pizzabot",
+        "resourceName": "YoYopizzabot-qnahost-qvj5iir/appsettings",
+        "resourceType": "Microsoft.Web/sites/config"
+      }
+    ],
+    "duration": "PT0S",
+    "mode": "Incremental",
+    "onErrorDeployment": null,
+    "outputs": null,
+    "parameters": {
+      "appInsightsLocation": {
+        "type": "String",
+        "value": "westeurope"
+      },
+      "appInsightsName": {
+        "type": "String",
+        "value": "Yo_Yo_pizzabot-qvj5iir"
+      },
+      "appServicePlanName": {
+        "type": "String",
+        "value": "Yo_Yo_pizzabot-qvj5iir"
+      },
+      "appServicePlanSku": {
+        "type": "Object",
+        "value": {
+          "name": "S1",
+          "tier": "Standard"
+        }
+      },
+      "botServiceName": {
+        "type": "String",
+        "value": "Yo_Yo_pizzabot-qvj5iir"
+      },
+      "botServiceSku": {
+        "type": "String",
+        "value": "S1"
+      },
+      "botWebAppName": {
+        "type": "String",
+        "value": "Yo_Yo_pizzabot-qvj5iir"
+      },
+      "contentModeratorLocation": {
+        "type": "String",
+        "value": "westeurope"
+      },
+      "contentModeratorName": {
+        "type": "String",
+        "value": "Yo_Yo_pizzabot-cm-qvj5iir"
+      },
+      "contentModeratorSku": {
+        "type": "String",
+        "value": "S0"
+      },
+      "cosmosDbName": {
+        "type": "String",
+        "value": "Yo_Yo_pizzabot-qvj5iir"
+      },
+      "location": {
+        "type": "String",
+        "value": "westeurope"
+      },
+      "luisServiceLocation": {
+        "type": "String",
+        "value": "westeurope"
+      },
+      "luisServiceName": {
+        "type": "String",
+        "value": "Yo_Yo_pizzabot-luis-qvj5iir"
+      },
+      "luisServiceSku": {
+        "type": "String",
+        "value": "S0"
+      },
+      "microsoftAppId": {
+        "type": "String",
+        "value": "4b773df9-f726-4744-ae29-f67be20b99af"
+      },
+      "microsoftAppPassword": {
+        "type": "String",
+        "value": "Yo_Yo_pizzabot_Password@a1"
+      },
+      "name": {
+        "type": "String",
+        "value": "Yo_Yo_pizzabot"
+      },
+      "qnaMakerSearchName": {
+        "type": "String",
+        "value": "Yo_Yo_pizzabot-search-qvj5iir"
+      },
+      "qnaMakerSearchSku": {
+        "type": "String",
+        "value": "standard"
+      },
+      "qnaMakerServiceName": {
+        "type": "String",
+        "value": "Yo_Yo_pizzabot-qna-qvj5iir"
+      },
+      "qnaMakerServiceSku": {
+        "type": "String",
+        "value": "S0"
+      },
+      "qnaMakerWebAppName": {
+        "type": "String",
+        "value": "Yo_Yo_pizzabot-qnahost-qvj5iir"
+      },
+      "qnaServiceLocation": {
+        "type": "String",
+        "value": "westeurope"
+      },
+      "storageAccountName": {
+        "type": "String",
+        "value": "Yo_Yo_pizzabot-qvj5iir"
+      },
+      "suffix": {
+        "type": "String",
+        "value": "qvj5iir"
+      },
+      "useContentModerator": {
+        "type": "Bool",
+        "value": true
+      },
+      "useCosmosDb": {
+        "type": "Bool",
+        "value": true
+      },
+      "useStorage": {
+        "type": "Bool",
+        "value": true
+      }
+    },
+    "parametersLink": null,
+    "providers": [
+      {
+        "id": null,
+        "namespace": "Microsoft.Resources",
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "locations": [
+              null
+            ],
+            "properties": null,
+            "resourceType": "deployments"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.DocumentDB",
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "locations": [
+              "westeurope"
+            ],
+            "properties": null,
+            "resourceType": "databaseAccounts"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.Storage",
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "locations": [
+              "westeurope"
+            ],
+            "properties": null,
+            "resourceType": "storageAccounts"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.Web",
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "locations": [
+              "westeurope"
+            ],
+            "properties": null,
+            "resourceType": "serverFarms"
+          },
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "locations": [
+              "westeurope"
+            ],
+            "properties": null,
+            "resourceType": "sites"
+          },
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "locations": [
+              null
+            ],
+            "properties": null,
+            "resourceType": "sites/config"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.Insights",
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "locations": [
+              "westeurope"
+            ],
+            "properties": null,
+            "resourceType": "components"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.BotService",
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "locations": [
+              "global"
+            ],
+            "properties": null,
+            "resourceType": "botServices"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.CognitiveServices",
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "locations": [
+              "westeurope",
+              "westus"
+            ],
+            "properties": null,
+            "resourceType": "accounts"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.Search",
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "locations": [
+              "westeurope"
+            ],
+            "properties": null,
+            "resourceType": "searchServices"
+          }
+        ]
+      }
+    ],
+    "provisioningState": "Succeeded",
+    "template": null,
+    "templateHash": "8448749211256882724",
+    "templateLink": null,
+    "timestamp": "2019-09-24T07:05:55.823017+00:00",
+    "validatedResources": [
+      {
+        "apiVersion": "2018-02-01",
+        "id": "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/Microsoft.Resources/deployments/3822b5f4-d098-4b57-9ee6-3bee686aec4c",
+        "name": "3822b5f4-d098-4b57-9ee6-3bee686aec4c",
+        "properties": {
+          "mode": "Incremental",
+          "template": {
+            "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+            "contentVersion": "1.0.0.0",
+            "resources": []
+          }
+        },
+        "resourceGroup": "Yo_Yo_pizzabot",
+        "type": "Microsoft.Resources/deployments"
+      },
+      {
+        "apiVersion": "2015-04-08",
+        "id": "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/Microsoft.DocumentDB/databaseAccounts/yoyopizzabot-qvj5iir",
+        "kind": "GlobalDocumentDB",
+        "location": "westeurope",
+        "name": "yoyopizzabot-qvj5iir",
+        "properties": {
+          "databaseAccountOfferType": "Standard",
+          "locations": [
+            {
+              "failoverPriority": 0,
+              "locationName": "westeurope"
+            }
+          ]
+        },
+        "resourceGroup": "Yo_Yo_pizzabot",
+        "type": "Microsoft.DocumentDB/databaseAccounts"
+      },
+      {
+        "apiVersion": "2018-07-01",
+        "id": "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/Microsoft.Storage/storageAccounts/yoyopizzabotqvj5iir",
+        "kind": "StorageV2",
+        "location": "westeurope",
+        "name": "yoyopizzabotqvj5iir",
+        "resourceGroup": "Yo_Yo_pizzabot",
+        "sku": {
+          "name": "Standard_LRS"
+        },
+        "type": "Microsoft.Storage/storageAccounts"
+      },
+      {
+        "apiVersion": "2018-02-01",
+        "id": "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/Microsoft.Web/serverFarms/Yo_Yo_pizzabot-qvj5iir",
+        "location": "westeurope",
+        "name": "Yo_Yo_pizzabot-qvj5iir",
+        "properties": {},
+        "resourceGroup": "Yo_Yo_pizzabot",
+        "sku": {
+          "name": "S1",
+          "tier": "Standard"
+        },
+        "type": "Microsoft.Web/serverFarms"
+      },
+      {
+        "apiVersion": "2015-05-01",
+        "id": "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/Microsoft.Insights/components/Yo_Yo_pizzabot-qvj5iir",
+        "kind": "web",
+        "location": "westeurope",
+        "name": "Yo_Yo_pizzabot-qvj5iir",
+        "properties": {
+          "Application_Type": "web"
+        },
+        "resourceGroup": "Yo_Yo_pizzabot",
+        "type": "Microsoft.Insights/components"
+      },
+      {
+        "apiVersion": "2018-02-01",
+        "dependsOn": [
+          "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/Microsoft.Web/serverfarms/Yo_Yo_pizzabot-qvj5iir"
+        ],
+        "id": "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/Microsoft.Web/sites/YoYopizzabot-qvj5iir",
+        "location": "westeurope",
+        "name": "YoYopizzabot-qvj5iir",
+        "properties": {
+          "serverFarmId": "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/Microsoft.Web/serverfarms/Yo_Yo_pizzabot-qvj5iir",
+          "siteConfig": {
+            "appSettings": [
+              {
+                "name": "MicrosoftAppId",
+                "value": "4b773df9-f726-4744-ae29-f67be20b99af"
+              },
+              {
+                "name": "MicrosoftAppPassword",
+                "value": "Yo_Yo_pizzabot_Password@a1"
+              }
+            ],
+            "webSocketsEnabled": true
+          }
+        },
+        "resourceGroup": "Yo_Yo_pizzabot",
+        "type": "Microsoft.Web/sites"
+      },
+      {
+        "apiVersion": "2018-07-12",
+        "dependsOn": [
+          "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/Microsoft.Insights/components/Yo_Yo_pizzabot-qvj5iir"
+        ],
+        "id": "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/Microsoft.BotService/botServices/Yo_Yo_pizzabot-qvj5iir",
+        "kind": "sdk",
+        "location": "global",
+        "name": "Yo_Yo_pizzabot-qvj5iir",
+        "properties": {
+          "developerAppInsightKey": "[reference(resourceId('Microsoft.Insights/components', parameters('appInsightsName'))).InstrumentationKey]",
+          "developerAppInsightsApplicationId": "[reference(resourceId('Microsoft.Insights/components', parameters('appInsightsName'))).ApplicationId]",
+          "displayName": "Yo_Yo_pizzabot-qvj5iir",
+          "endpoint": "https://yoyopizzabot-qvj5iir.azurewebsites.net/api/messages",
+          "isStreamingSupported": true,
+          "msaAppId": "4b773df9-f726-4744-ae29-f67be20b99af"
+        },
+        "resourceGroup": "Yo_Yo_pizzabot",
+        "sku": {
+          "name": "S1"
+        },
+        "type": "Microsoft.BotService/botServices"
+      },
+      {
+        "apiVersion": "2017-04-18",
+        "id": "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/Microsoft.CognitiveServices/accounts/Yo_Yo_pizzabot-cm-qvj5iir",
+        "kind": "ContentModerator",
+        "location": "westeurope",
+        "name": "Yo_Yo_pizzabot-cm-qvj5iir",
+        "resourceGroup": "Yo_Yo_pizzabot",
+        "sku": {
+          "name": "S0"
+        },
+        "type": "Microsoft.CognitiveServices/accounts"
+      },
+      {
+        "apiVersion": "2017-04-18",
+        "id": "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/Microsoft.CognitiveServices/accounts/Yo_Yo_pizzabot-luis-qvj5iir",
+        "kind": "LUIS",
+        "location": "westeurope",
+        "name": "Yo_Yo_pizzabot-luis-qvj5iir",
+        "resourceGroup": "Yo_Yo_pizzabot",
+        "sku": {
+          "name": "S0"
+        },
+        "type": "Microsoft.CognitiveServices/accounts"
+      },
+      {
+        "apiVersion": "2017-04-18",
+        "dependsOn": [
+          "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/Microsoft.Web/Sites/YoYopizzabot-qnahost-qvj5iir",
+          "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/Microsoft.Search/searchServices/yoyopizzabot-search-qvj5iir",
+          "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/microsoft.insights/components/Yo_Yo_pizzabot-qvj5iir"
+        ],
+        "id": "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/Microsoft.CognitiveServices/accounts/Yo_Yo_pizzabot-qna-qvj5iir",
+        "kind": "QnAMaker",
+        "location": "westus",
+        "name": "Yo_Yo_pizzabot-qna-qvj5iir",
+        "properties": {
+          "apiProperties": {
+            "qnaRuntimeEndpoint": "[concat('https://',reference(resourceId('Microsoft.Web/sites', variables('qnaMakerWebAppName'))).hostNames[0])]"
+          }
+        },
+        "resourceGroup": "Yo_Yo_pizzabot",
+        "sku": {
+          "name": "S0"
+        },
+        "type": "Microsoft.CognitiveServices/accounts"
+      },
+      {
+        "apiVersion": "2015-08-19",
+        "id": "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/Microsoft.Search/searchServices/yoyopizzabot-search-qvj5iir",
+        "location": "westeurope",
+        "name": "yoyopizzabot-search-qvj5iir",
+        "properties": {
+          "hostingMode": "default",
+          "partitionCount": 1,
+          "replicaCount": 1
+        },
+        "resourceGroup": "Yo_Yo_pizzabot",
+        "sku": {
+          "name": "standard"
+        },
+        "type": "Microsoft.Search/searchServices"
+      },
+      {
+        "apiVersion": "2016-08-01",
+        "dependsOn": [
+          "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/Microsoft.Web/serverFarms/Yo_Yo_pizzabot-qvj5iir"
+        ],
+        "id": "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/Microsoft.Web/sites/YoYopizzabot-qnahost-qvj5iir",
+        "location": "westeurope",
+        "name": "YoYopizzabot-qnahost-qvj5iir",
+        "properties": {
+          "enabled": true,
+          "hostingEnvironment": "",
+          "name": "YoYopizzabot-qnahost-qvj5iir",
+          "serverFarmId": "/subscriptions//subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourcegroups/Yo_Yo_pizzabot/providers/Microsoft.Web/serverfarms/Yo_Yo_pizzabot-qvj5iir",
+          "siteConfig": {
+            "cors": {
+              "allowedOrigins": [
+                "*"
+              ]
+            }
+          }
+        },
+        "resourceGroup": "Yo_Yo_pizzabot",
+        "type": "Microsoft.Web/sites"
+      },
+      {
+        "apiVersion": "2016-08-01",
+        "dependsOn": [
+          "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/Microsoft.Web/Sites/YoYopizzabot-qnahost-qvj5iir",
+          "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/Microsoft.Insights/components/Yo_Yo_pizzabot-qvj5iir",
+          "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/Microsoft.Search/searchServices/yoyopizzabot-search-qvj5iir"
+        ],
+        "id": "/subscriptions/e608c6f7-ffed-43ed-bc00-c46d4c6ee5ef/resourceGroups/Yo_Yo_pizzabot/providers/Microsoft.Web/sites/YoYopizzabot-qnahost-qvj5iir/config/appsettings",
+        "name": "YoYopizzabot-qnahost-qvj5iir/appsettings",
+        "properties": {
+          "AzureSearchAdminKey": "[listAdminKeys(resourceId('Microsoft.Search/searchServices/', variables('qnaMakerSearchName')), '2015-08-19').primaryKey]",
+          "AzureSearchName": "yoyopizzabot-search-qvj5iir",
+          "DefaultAnswer": "No good match found in KB.",
+          "PrimaryEndpointKey": "YoYopizzabot-qnahost-qvj5iir-PrimaryEndpointKey",
+          "QNAMAKER_EXTENSION_VERSION": "latest",
+          "SecondaryEndpointKey": "YoYopizzabot-qnahost-qvj5iir-SecondaryEndpointKey",
+          "UserAppInsightsAppId": "[reference(resourceId('Microsoft.Insights/components/', parameters('appInsightsName')), '2015-05-01').AppId]",
+          "UserAppInsightsKey": "[reference(resourceId('Microsoft.Insights/components/', parameters('appInsightsName')), '2015-05-01').InstrumentationKey]",
+          "UserAppInsightsName": "Yo_Yo_pizzabot-qvj5iir"
+        },
+        "resourceGroup": "Yo_Yo_pizzabot",
+        "type": "Microsoft.Web/sites/config"
+      }
+    ]
+  },
+  "resourceGroup": "Yo_Yo_pizzabot"
+}
+{
+  "applicationInsights": {
+    "type": "Object",
+    "value": {
+      "InstrumentationKey": "9ef96c63-2c45-460b-a348-bb34ee9ded77"
+    }
+  },
+  "blobStorage": {
+    "type": "Object",
+    "value": {
+      "connectionString": "DefaultEndpointsProtocol=https;AccountName=yoyopizzabotqvj5iir;AccountKey=SE/Vh/HjavOaxc6WfLEP3yhpyFv7+AXC6R6i8Ia9Xd6QYTe15IDzgy/QjNGJ07v7PthJaculFeXbqw7TSIW7RQ==;EndpointSuffix=core.windows.net",
+      "container": "transcripts"
+    }
+  },
+  "botWebAppName": {
+    "type": "String",
+    "value": "YoYopizzabot-qvj5iir"
+  },
+  "contentModerator": {
+    "type": "Object",
+    "value": {
+      "key": "079765d31cdf4071a029f810df5a947d"
+    }
+  },
+  "cosmosDb": {
+    "type": "Object",
+    "value": {
+      "authKey": "kQ5EWejHnlYOynbqqUkrPI9W0SB1PW6A0NB8TwYjBirlekTVFr69qDA7OCt7WvJTpaTq9CwFeBFJIkZsT5qQdw==",
+      "collectionId": "botstate-collection",
+      "cosmosDBEndpoint": "https://yoyopizzabot-qvj5iir.documents.azure.com:443/",
+      "databaseId": "botstate-db"
+    }
+  },
+  "luis": {
+    "type": "Object",
+    "value": {
+      "accountName": "Yo_Yo_pizzabot-luis-qvj5iir",
+      "key": "b6abc7fc1aaa44d68bc1d60a360ad0e3",
+      "region": "westeurope"
+    }
+  },
+  "qnaMaker": {
+    "type": "Object",
+    "value": {
+      "endpoint": "https://yoyopizzabot-qnahost-qvj5iir.azurewebsites.net",
+      "key": "2077bd4a688b41f2a22758aba693faec"
+    }
+  },
+  "resourceGroupName": {
+    "type": "String",
+    "value": "Yo_Yo_pizzabot"
+  }
+}

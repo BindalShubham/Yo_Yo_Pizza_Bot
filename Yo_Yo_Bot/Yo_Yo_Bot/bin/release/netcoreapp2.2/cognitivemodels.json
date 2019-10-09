@@ -1,0 +1,46 @@
+{
+  "defaultLocale": "en-us",
+  "cognitiveModels": {
+    "en": {
+      "dispatchModel": {
+        "subscriptionkey": "b6abc7fc1aaa44d68bc1d60a360ad0e3",
+        "appid": "d617fff4-c32f-41fb-9394-798e575e4d1a",
+        "region": "westeurope",
+        "name": "Yo_Yo_pizzaboten_Dispatch",
+        "type": "dispatch",
+        "authoringRegion": "westeurope",
+        "authoringkey": "81a8f57777a944afb0dff1bd102f0fde"
+      },
+      "languageModels": [
+        {
+          "authoringkey": "81a8f57777a944afb0dff1bd102f0fde",
+          "subscriptionkey": "b6abc7fc1aaa44d68bc1d60a360ad0e3",
+          "appid": "1428d2bd-7949-4059-8b4a-668c0291c85a",
+          "region": "westeurope",
+          "version": "0.1",
+          "id": "General",
+          "name": "Yo_Yo_pizzaboten_General",
+          "authoringRegion": "westeurope"
+        }
+      ],
+      "knowledgebases": [
+        {
+          "endpointKey": "3c6c3ae9-e554-436a-8738-76ee9d3e5fd4",
+          "subscriptionKey": "2077bd4a688b41f2a22758aba693faec",
+          "hostname": "https://yoyopizzabot-qnahost-qvj5iir.azurewebsites.net",
+          "kbId": "d14b89f3-01aa-4a51-840e-77077d9949c9",
+          "id": "Chitchat",
+          "name": "Chitchat"
+        },
+        {
+          "endpointKey": "3c6c3ae9-e554-436a-8738-76ee9d3e5fd4",
+          "subscriptionKey": "2077bd4a688b41f2a22758aba693faec",
+          "hostname": "https://yoyopizzabot-qnahost-qvj5iir.azurewebsites.net",
+          "kbId": "e98ba53e-0bae-4ebb-8358-a529534d4ce6",
+          "id": "Faq",
+          "name": "Faq"
+        }
+      ]
+    }
+  }
+}

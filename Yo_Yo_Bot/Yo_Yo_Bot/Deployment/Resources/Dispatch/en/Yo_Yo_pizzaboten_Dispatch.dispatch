@@ -1,0 +1,48 @@
+{
+  "authoringRegion": "westeurope",
+  "culture": "en-us",
+  "hierarchical": true,
+  "useAllTrainingData": false,
+  "dontReviseUtterance": false,
+  "copyLuisData": true,
+  "normalizeDiacritics": true,
+  "services": [
+    {
+      "intentName": "l_General",
+      "appId": "1428d2bd-7949-4059-8b4a-668c0291c85a",
+      "authoringKey": "81a8f57777a944afb0dff1bd102f0fde",
+      "version": "0.1",
+      "region": "westeurope",
+      "type": "luis",
+      "name": "Yo_Yo_pizzaboten_General",
+      "id": "1"
+    },
+    {
+      "intentName": "q_Chitchat",
+      "kbId": "d14b89f3-01aa-4a51-840e-77077d9949c9",
+      "subscriptionKey": "2077bd4a688b41f2a22758aba693faec",
+      "type": "qna",
+      "name": "Chitchat",
+      "id": "2"
+    },
+    {
+      "intentName": "q_Faq",
+      "kbId": "e98ba53e-0bae-4ebb-8358-a529534d4ce6",
+      "subscriptionKey": "2077bd4a688b41f2a22758aba693faec",
+      "type": "qna",
+      "name": "Faq",
+      "id": "3"
+    }
+  ],
+  "serviceIds": [
+    "1",
+    "2",
+    "3"
+  ],
+  "appId": "d617fff4-c32f-41fb-9394-798e575e4d1a",
+  "authoringKey": "81a8f57777a944afb0dff1bd102f0fde",
+  "version": "Dispatch",
+  "region": "westeurope",
+  "type": "dispatch",
+  "name": "Yo_Yo_pizzaboten_Dispatch"
+}

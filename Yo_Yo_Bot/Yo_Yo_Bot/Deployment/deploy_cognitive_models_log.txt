@@ -1,0 +1,145 @@
+Yo_Yo_pizzaboten_Dispatch.dispatch created
+[31m Model                             [39m[31m Type               [39m[31m StatusId [39m[31m Status   [39m[31m          [39m
+ Cancel                             Intent Classifier   3         InProgrΓÇª           
+ Confirm                            Intent Classifier   3         InProgrΓÇª           
+ DirectionalReference               Entity Extractor    3         InProgrΓÇª           
+ Escalate                           Intent Classifier   3         InProgrΓÇª           
+ FinishTask                         Intent Classifier   3         InProgrΓÇª           
+ GoBack                             Intent Classifier   3         InProgrΓÇª           
+ Help                               Intent Classifier   3         InProgrΓÇª           
+ Logout                             Intent Classifier   3         InProgrΓÇª           
+ None                               Intent Classifier   3         InProgrΓÇª           
+ ReadAloud                          Intent Classifier   3         InProgrΓÇª           
+ Reject                             Intent Classifier   3         InProgrΓÇª           
+ Repeat                             Intent Classifier   3         InProgrΓÇª           
+ SelectAny                          Intent Classifier   3         InProgrΓÇª           
+ SelectItem                         Intent Classifier   3         InProgrΓÇª           
+ SelectNone                         Intent Classifier   3         InProgrΓÇª           
+ ShowNext                           Intent Classifier   3         InProgrΓÇª           
+ ShowPrevious                       Intent Classifier   3         InProgrΓÇª           
+ StartOver                          Intent Classifier   3         InProgrΓÇª           
+ Stop                               Intent Classifier   3         InProgrΓÇª           
+[31m Model                             [39m[31m Type               [39m[31m StatusId [39m[31m Status   [39m[31m          [39m
+ Cancel                             Intent Classifier   3         InProgrΓÇª           
+ Confirm                            Intent Classifier   3         InProgrΓÇª           
+ DirectionalReference               Entity Extractor    3         InProgrΓÇª           
+ Escalate                           Intent Classifier   3         InProgrΓÇª           
+ FinishTask                         Intent Classifier   3         InProgrΓÇª           
+ GoBack                             Intent Classifier   3         InProgrΓÇª           
+ Help                               Intent Classifier   3         InProgrΓÇª           
+ Logout                             Intent Classifier   3         InProgrΓÇª           
+ None                               Intent Classifier   3         InProgrΓÇª           
+ ReadAloud                          Intent Classifier   3         InProgrΓÇª           
+ Reject                             Intent Classifier   3         InProgrΓÇª           
+ Repeat                             Intent Classifier   3         InProgrΓÇª           
+ SelectAny                          Intent Classifier   3         InProgrΓÇª           
+ SelectItem                         Intent Classifier   3         InProgrΓÇª           
+ SelectNone                         Intent Classifier   3         InProgrΓÇª           
+ ShowNext                           Intent Classifier   3         InProgrΓÇª           
+ ShowPrevious                       Intent Classifier   3         InProgrΓÇª           
+ StartOver                          Intent Classifier   3         InProgrΓÇª           
+ Stop                               Intent Classifier   3         InProgrΓÇª           
+[31m Model                             [39m[31m Type               [39m[31m StatusId [39m[31m Status   [39m[31m          [39m
+ Cancel                             Intent Classifier   3         InProgrΓÇª           
+ Confirm                            Intent Classifier   3         InProgrΓÇª           
+ DirectionalReference               Entity Extractor    3         InProgrΓÇª           
+ Escalate                           Intent Classifier   3         InProgrΓÇª           
+ FinishTask                         Intent Classifier   3         InProgrΓÇª           
+ GoBack                             Intent Classifier   3         InProgrΓÇª           
+ Help                               Intent Classifier   3         InProgrΓÇª           
+ Logout                             Intent Classifier   3         InProgrΓÇª           
+ None                               Intent Classifier   3         InProgrΓÇª           
+ ReadAloud                          Intent Classifier   3         InProgrΓÇª           
+ Reject                             Intent Classifier   3         InProgrΓÇª           
+ Repeat                             Intent Classifier   3         InProgrΓÇª           
+ SelectAny                          Intent Classifier   3         InProgrΓÇª           
+ SelectItem                         Intent Classifier   3         InProgrΓÇª           
+ SelectNone                         Intent Classifier   3         InProgrΓÇª           
+ ShowNext                           Intent Classifier   3         InProgrΓÇª           
+ ShowPrevious                       Intent Classifier   3         InProgrΓÇª           
+ StartOver                          Intent Classifier   3         InProgrΓÇª           
+ Stop                               Intent Classifier   3         InProgrΓÇª           
+[31m Model                             [39m[31m Type               [39m[31m StatusId [39m[31m Status   [39m[31m          [39m
+ Cancel                             Intent Classifier   3         InProgrΓÇª           
+ Confirm                            Intent Classifier   3         InProgrΓÇª           
+ DirectionalReference               Entity Extractor    3         InProgrΓÇª           
+ Escalate                           Intent Classifier   3         InProgrΓÇª           
+ FinishTask                         Intent Classifier   3         InProgrΓÇª           
+ GoBack                             Intent Classifier   3         InProgrΓÇª           
+ Help                               Intent Classifier   3         InProgrΓÇª           
+ Logout                             Intent Classifier   3         InProgrΓÇª           
+ None                               Intent Classifier   3         InProgrΓÇª           
+ ReadAloud                          Intent Classifier   3         InProgrΓÇª           
+ Reject                             Intent Classifier   3         InProgrΓÇª           
+ Repeat                             Intent Classifier   3         InProgrΓÇª           
+ SelectAny                          Intent Classifier   3         InProgrΓÇª           
+ SelectItem                         Intent Classifier   3         InProgrΓÇª           
+ SelectNone                         Intent Classifier   3         InProgrΓÇª           
+ ShowNext                           Intent Classifier   3         InProgrΓÇª           
+ ShowPrevious                       Intent Classifier   3         InProgrΓÇª           
+ StartOver                          Intent Classifier   3         InProgrΓÇª           
+ Stop                               Intent Classifier   3         InProgrΓÇª           
+[31m Model                             [39m[31m Type               [39m[31m StatusId [39m[31m Status   [39m[31m          [39m
+ Cancel                             Intent Classifier   0         Success            
+ Confirm                            Intent Classifier   0         Success            
+ Escalate                           Intent Classifier   0         Success            
+ FinishTask                         Intent Classifier   0         Success            
+ GoBack                             Intent Classifier   0         Success            
+ Help                               Intent Classifier   0         Success            
+ Logout                             Intent Classifier   0         Success            
+ None                               Intent Classifier   0         Success            
+ ReadAloud                          Intent Classifier   0         Success            
+ Reject                             Intent Classifier   0         Success            
+ Repeat                             Intent Classifier   0         Success            
+ SelectAny                          Intent Classifier   0         Success            
+ SelectItem                         Intent Classifier   0         Success            
+ SelectNone                         Intent Classifier   0         Success            
+ ShowNext                           Intent Classifier   0         Success            
+ ShowPrevious                       Intent Classifier   0         Success            
+ StartOver                          Intent Classifier   0         Success            
+ Stop                               Intent Classifier   0         Success            
+ DirectionalReference               Entity Extractor    0         Success            
+'
+Running.              '
+Running..              '
+Running...              '
+Running....              '
+Running.....              '
+Running......              '
+Running.......              '
+Running........              '
+Succeeded.........              done
+'
+Running.              '
+Running..              '
+Running...              '
+Running....              '
+Succeeded.....              done
+Exporting services for dispatch...
+Exporting Yo_Yo_pizzaboten_General LUIS application...
+Exported LUIS app JSON is at C:\Users\ShubhamBindal\source\repos\Yo_Yo_Bot\Yo_Yo_Bot\Yo_Yo_Bot\Deployment\Resources\Dispatch\en\data\_L_Yo_Yo_pizzaboten_General.json
+Exporting Chitchat QnA kb...
+Exported QnA app JSON is at C:\Users\ShubhamBindal\source\repos\Yo_Yo_Bot\Yo_Yo_Bot\Yo_Yo_Bot\Deployment\Resources\Dispatch\en\data\_Q_q_Chitchat.json
+Expanding kb d14b89f3-01aa-4a51-840e-77077d9949c9 with word alterations
+Exporting Faq QnA kb...
+Exported QnA app JSON is at C:\Users\ShubhamBindal\source\repos\Yo_Yo_Bot\Yo_Yo_Bot\Yo_Yo_Bot\Deployment\Resources\Dispatch\en\data\_Q_q_Faq.json
+Expanding kb e98ba53e-0bae-4ebb-8358-a529534d4ce6 with word alterations
+Creating dispatch LUIS model json...
+Creating training data...
+WARNING: Number of samples in 'C:\Users\ShubhamBindal\source\repos\Yo_Yo_Bot\Yo_Yo_Bot\Yo_Yo_Bot\Deployment\Resources\Dispatch\en\data\_experiments\model_001\train.txt' that were used by multiple categories: 8
+WARNING: very few samples (breaking-point for debugging purpose), foldSize=0.6, foldsCount=5, Samples.Length=3, category=None, TrainingSamplesCount=2, TestingSamplesCount=1
+WARNING: Number of samples in 'C:\Users\ShubhamBindal\source\repos\Yo_Yo_Bot\Yo_Yo_Bot\Yo_Yo_Bot\Deployment\Resources\Dispatch\en\data\_experiments\model_001\cv5\fold000\train.txt' that were used by multiple categories: 5
+WARNING: Number of samples in 'C:\Users\ShubhamBindal\source\repos\Yo_Yo_Bot\Yo_Yo_Bot\Yo_Yo_Bot\Deployment\Resources\Dispatch\en\data\_experiments\model_001\cv5\fold001\train.txt' that were used by multiple categories: 7
+WARNING: Number of samples in 'C:\Users\ShubhamBindal\source\repos\Yo_Yo_Bot\Yo_Yo_Bot\Yo_Yo_Bot\Deployment\Resources\Dispatch\en\data\_experiments\model_001\cv5\fold002\train.txt' that were used by multiple categories: 4
+WARNING: Number of samples in 'C:\Users\ShubhamBindal\source\repos\Yo_Yo_Bot\Yo_Yo_Bot\Yo_Yo_Bot\Deployment\Resources\Dispatch\en\data\_experiments\model_001\cv5\fold003\train.txt' that were used by multiple categories: 4
+WARNING: Number of samples in 'C:\Users\ShubhamBindal\source\repos\Yo_Yo_Bot\Yo_Yo_Bot\Yo_Yo_Bot\Deployment\Resources\Dispatch\en\data\_experiments\model_001\cv5\fold004\train.txt' that were used by multiple categories: 4
+Updating Yo_Yo_pizzaboten_Dispatch model...
+Training Yo_Yo_pizzaboten_General...
+Importing Yo_Yo_pizzaboten_Dispatch model...
+Setting up intents to child services mapping for Yo_Yo_pizzaboten_Dispatch...
+Add subscription key and publish child LUIS apps...
+Publishing Yo_Yo_pizzaboten_General model...
+Training Yo_Yo_pizzaboten_Dispatch model...
+Publishing Yo_Yo_pizzaboten_Dispatch model...
+Writing summary file ('test_prediction')...
+Please review your dispatch model in C:\Users\ShubhamBindal\source\repos\Yo_Yo_Bot\Yo_Yo_Bot\Yo_Yo_Bot\Deployment\Resources\Dispatch\en\Summary*.html

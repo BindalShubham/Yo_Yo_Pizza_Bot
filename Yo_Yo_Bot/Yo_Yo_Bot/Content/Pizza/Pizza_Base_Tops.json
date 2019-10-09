@@ -1,0 +1,423 @@
+﻿{
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Lets customize pizza for you!",
+      "size": "medium",
+      "weight": "bolder"
+    },
+    {
+      "type": "TextBlock",
+      "text": "What type of base do you prefer?",
+      "wrap": true
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": 2,
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://i.ibb.co/wQLkX9V/No-Yeast-Thin-Crust-Veggie-Pizza-Recipe-1.jpg",
+              "imagesize": "large"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 2,
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://i.ibb.co/Y79pqzf/Baked-No-Knead-Pan-Pizza.jpg"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 2,
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://i.ibb.co/NnSTm0B/shutterstock-562149826.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.ShowCard",
+      "title": "Thin-Crust",
+      "card": {
+        "type": "AdaptiveCard",
+        "body": [
+          {
+            "type": "TextBlock",
+            "text": "What toppings would you like on your thin-crust pizza?",
+            "size": "medium",
+            "wrap": true
+          },
+          {
+            "type": "ColumnSet",
+            "columns": [
+              {
+                "type": "Column",
+                "width": 2,
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Veg Toppings: ₹ 30 each",
+                    "wrap": true
+                  },
+                  {
+                    "type": "Input.ChoiceSet",
+                    "isMultiSelect": true,
+                    "id": "Thin-CrustVegTops",
+                    "style": "expanded",
+                    "choices": [
+                      {
+                        "title": "Black Olives",
+                        "value": "Black Olives"
+                      },
+                      {
+                        "title": "Mushrooms",
+                        "value": "Mushrooms"
+                      },
+                      {
+                        "title": "Green peppers",
+                        "value": "Green peppers"
+                      },
+                      {
+                        "title": "Jalapenos",
+                        "value": "Jalapenos"
+                      },
+                      {
+                        "title": "Bell Pepper",
+                        "value": "Bell Pepper"
+                      },
+                      {
+                        "title": "Fresh Tomatos",
+                        "value": "Fresh Tomatos"
+                      },
+                      {
+                        "title": "Onions",
+                        "value": "Onions"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "Column",
+                "width": 2,
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Non-Veg Toppings: ₹ 50 each",
+                    "wrap": true
+                  },
+                  {
+                    "type": "Input.ChoiceSet",
+                    "isMultiSelect": true,
+                    "id": "Thin-CrustNonVegTops",
+                    "style": "expanded",
+                    "choices": [
+                      {
+                        "title": "Hot n Spicy Chicken",
+                        "value": "Hot n Spicy Chicken"
+                      },
+                      {
+                        "title": "Bbq chicken",
+                        "value": "Bbq chicken"
+                      },
+                      {
+                        "title": "Italian chicken sausage",
+                        "value": "Italian chicken sausage"
+                      },
+                      {
+                        "title": "Double Chicken rashers",
+                        "value": "Double Chicken rashers"
+                      },
+                      {
+                        "title": "Exotic Chicken Salami",
+                        "value": "Exotic Chicken Salami"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Input.Text",
+            "id": "Thin-CrustSuggestion",
+            "isMultiline": true,
+            "placeholder": "Any other preparation requests?"
+          }
+        ],
+        "actions": [
+          {
+            "type": "Action.Submit",
+            "title": "OK",
+            "data": {
+              "BaseChoice": "Thin-Crust",
+              "action": "pizza_base_tops"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "Action.ShowCard",
+      "title": "Pan",
+      "card": {
+        "type": "AdaptiveCard",
+        "body": [
+          {
+            "type": "TextBlock",
+            "text": "What toppings would you like on your Pan pizza?",
+            "size": "medium",
+            "wrap": true
+          },
+          {
+            "type": "ColumnSet",
+            "columns": [
+              {
+                "type": "Column",
+                "width": 2,
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Veg Toppings: ₹ 30 each",
+                    "wrap": true
+                  },
+                  {
+                    "type": "Input.ChoiceSet",
+                    "isMultiSelect": true,
+                    "id": "PanVegTops",
+                    "style": "expanded",
+                    "choices": [
+                      {
+                        "title": "Black Olives",
+                        "value": "Black Olives"
+                      },
+                      {
+                        "title": "Mushrooms",
+                        "value": "Mushrooms"
+                      },
+                      {
+                        "title": "Green peppers",
+                        "value": "Green peppers"
+                      },
+                      {
+                        "title": "Jalapenos",
+                        "value": "Jalapenos"
+                      },
+                      {
+                        "title": "Bell Pepper",
+                        "value": "Bell Pepper"
+                      },
+                      {
+                        "title": "Fresh Tomatos",
+                        "value": "Fresh Tomatos"
+                      },
+                      {
+                        "title": "Onions",
+                        "value": "Onions"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "Column",
+                "width": 2,
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Non-Veg Toppings: ₹ 50 each",
+                    "wrap": true
+                  },
+                  {
+                    "type": "Input.ChoiceSet",
+                    "isMultiSelect": true,
+                    "id": "PanNonVegTops",
+                    "style": "expanded",
+                    "choices": [
+                      {
+                        "title": "Hot n Spicy Chicken",
+                        "value": "Hot n Spicy Chicken"
+                      },
+                      {
+                        "title": "Bbq chicken",
+                        "value": "Bbq chicken"
+                      },
+                      {
+                        "title": "Italian chicken sausage",
+                        "value": "Italian chicken sausage"
+                      },
+                      {
+                        "title": "Double Chicken rashers",
+                        "value": "Double Chicken rashers"
+                      },
+                      {
+                        "title": "Exotic Chicken Salami",
+                        "value": "Exotic Chicken Salami"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Input.Text",
+            "id": "PanSuggestion",
+            "isMultiline": true,
+            "placeholder": "Any other preparation requests?"
+          }
+        ],
+
+        "actions": [
+          {
+            "type": "Action.Submit",
+            "title": "OK",
+            "data": {
+              "BaseChoice": "Pan",
+              "action": "pizza_base_tops"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "Action.ShowCard",
+      "title": "Cheese-In",
+      "card": {
+        "type": "AdaptiveCard",
+        "body": [
+          {
+            "type": "TextBlock",
+            "text": "What toppings would you like on your cheese-in pizza?",
+            "size": "medium",
+            "wrap": true
+          },
+          {
+            "type": "ColumnSet",
+            "columns": [
+              {
+                "type": "Column",
+                "width": 2,
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Veg Toppings: ₹ 30 each",
+                    "wrap": true
+                  },
+                  {
+                    "type": "Input.ChoiceSet",
+                    "isMultiSelect": true,
+                    "id": "Cheese-InVegTops",
+                    "style": "expanded",
+                    "choices": [
+                      {
+                        "title": "Black Olives",
+                        "value": "Black Olives"
+                      },
+                      {
+                        "title": "Mushrooms",
+                        "value": "Mushrooms"
+                      },
+                      {
+                        "title": "Green peppers",
+                        "value": "Green peppers"
+                      },
+                      {
+                        "title": "Jalapenos",
+                        "value": "Jalapenos"
+                      },
+                      {
+                        "title": "Bell Pepper",
+                        "value": "Bell Pepper"
+                      },
+                      {
+                        "title": "Fresh Tomatos",
+                        "value": "Fresh Tomatos"
+                      },
+                      {
+                        "title": "Onions",
+                        "value": "Onions"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "Column",
+                "width": 2,
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Non-Veg Toppings: ₹ 50 each",
+                    "wrap": true
+                  },
+                  {
+                    "type": "Input.ChoiceSet",
+                    "isMultiSelect": true,
+                    "id": "Cheese-InNonVegTops",
+                    "style": "expanded",
+                    "choices": [
+                      {
+                        "title": "Hot n Spicy Chicken",
+                        "value": "Hot n Spicy Chicken"
+                      },
+                      {
+                        "title": "Bbq chicken",
+                        "value": "Bbq chicken"
+                      },
+                      {
+                        "title": "Italian chicken sausage",
+                        "value": "Italian chicken sausage"
+                      },
+                      {
+                        "title": "Double Chicken rashers",
+                        "value": "Double Chicken rashers"
+                      },
+                      {
+                        "title": "Exotic Chicken Salami",
+                        "value": "Exotic Chicken Salami"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Input.Text",
+            "id": "Cheese-InSuggestion",
+            "isMultiline": true,
+            "placeholder": "Any other preparation requests?"
+          }
+        ],
+
+        "actions": [
+          {
+            "type": "Action.Submit",
+            "title": "OK",
+            "data": {
+              "BaseChoice": "Cheese-In",
+              "action": "pizza_base_tops"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1871 @@
+{
+  "luis_schema_version": "4.0.0",
+  "versionId": "0.1",
+  "name": "Yo_Yo_pizzaboten_order",
+  "desc": "",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "None"
+    },
+    {
+      "name": "pizza_order"
+    },
+    {
+      "name": "pizza_status"
+    }
+  ],
+  "entities": [
+    {
+      "name": "orderId",
+      "roles": [],
+      "hierarchyChildren": []
+    }
+  ],
+  "composites": [],
+  "closedLists": [
+    {
+      "name": "pizza_cheese",
+      "subLists": [
+        {
+          "canonicalForm": "Provolone",
+          "list": []
+        },
+        {
+          "canonicalForm": "Mozzarella",
+          "list": []
+        },
+        {
+          "canonicalForm": "Parmesan",
+          "list": [
+            "Parmigiano",
+            "Reggiano",
+            "Parmigiano-Reggiano"
+          ]
+        },
+        {
+          "canonicalForm": "Cheddar",
+          "list": [
+            "regular"
+          ]
+        }
+      ],
+      "roles": []
+    },
+    {
+      "name": "pizza_sauce",
+      "subLists": [
+        {
+          "canonicalForm": "Béchamel sauce",
+          "list": [
+            "Béchamel",
+            "white sauce",
+            "white"
+          ]
+        },
+        {
+          "canonicalForm": "Barbecue sauce",
+          "list": [
+            "spicy",
+            "bbq",
+            "Barbecue",
+            "hot"
+          ]
+        },
+        {
+          "canonicalForm": "Tapenade",
+          "list": [
+            "olive sauce",
+            "olive"
+          ]
+        },
+        {
+          "canonicalForm": "Mariana Sauce",
+          "list": [
+            "special tomato sauce",
+            "Tomato Sauce",
+            "mariana"
+          ]
+        },
+        {
+          "canonicalForm": "Pepper Jelly",
+          "list": [
+            "red pepper sauce",
+            "pepper sauce",
+            "pepper"
+          ]
+        }
+      ],
+      "roles": []
+    },
+    {
+      "name": "pizza_size",
+      "subLists": [
+        {
+          "canonicalForm": "large",
+          "list": [
+            "10\"",
+            "10 inch",
+            "10inches",
+            "10 inches",
+            "10inch",
+            "big",
+            "huge",
+            "biggest",
+            "largest",
+            "Large 10\"",
+            "10",
+            "10 \""
+          ]
+        },
+        {
+          "canonicalForm": "small",
+          "list": [
+            "miniature",
+            "6 inches",
+            "6 inch",
+            "6inches",
+            "6inch",
+            "6\"",
+            "6 \"",
+            "tiny",
+            "little",
+            "Small 6\"",
+            "6"
+          ]
+        },
+        {
+          "canonicalForm": "medium",
+          "list": [
+            "average",
+            "8 inches",
+            "8inches",
+            "8 inch",
+            "8inch",
+            "8\"",
+            "Medium 8\"",
+            "8",
+            "8 \""
+          ]
+        },
+        {
+          "canonicalForm": "different_size",
+          "list": [
+            "1 inches",
+            "1 inch",
+            "2 inches",
+            "3 inches",
+            "4 inches",
+            "5 inches",
+            "7 inches",
+            "9 inches",
+            "11 inches",
+            "12 inches",
+            "13 inches",
+            "14 inches",
+            "15 inches",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "7",
+            "9",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "1\"",
+            "2\"",
+            "3\"",
+            "4\"",
+            "5\"",
+            "7\"",
+            "9\"",
+            "13\"",
+            "14\"",
+            "15\"",
+            "11\""
+          ]
+        }
+      ],
+      "roles": []
+    }
+  ],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [
+    {
+      "name": "datetimeV2",
+      "roles": []
+    },
+    {
+      "name": "personName",
+      "roles": []
+    }
+  ],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "accept the event on feb. 18 in beijing.",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "add an appointment on may 8th at shanghai",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "add appt with helen ding for dinner on march 5th at 5 pm at dennys",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "add appt with mike li for dinner on march 5th at 5 pm at dennys",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "add dentist appointment on tuesday june at the 1st clinic",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "add doctors appointment on march 13 at 2 pm at the original health clinic",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "add doctors appointment on march 13 at 2 pm at the tiptop virginia beach clinic",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "add hope middle school meet and greet on my calendar",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "add picture day at school to my calendar for friday, november the 8th from 8 am to 9:30 am",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "add solo gig at civic hall on the 7th of march at 8 pm",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "adjust family room lights to 15 %",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "are bedroom lights off",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "are living room lights off",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "are my crawl space lamps on",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "are my lights off in the closet",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "are my playroom lights on",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "are the back entryway lights on",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "are the lights off in the kitchen",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "are the lights on in the library",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "are the lights on in the master bathroom",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "are the living area lights on",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "bbq",
+      "intent": "pizza_order",
+      "entities": []
+    },
+    {
+      "text": "bbq sauce",
+      "intent": "pizza_order",
+      "entities": []
+    },
+    {
+      "text": "bing find me a conference room in the bravern this afternoon",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "book a meeting in guangzhou at 6am on march 5th",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "brighten family room lamp by 100",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "brighten garage",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "brighten kitchen entry light",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "brighten living room lamps by ten",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "brighten living room lamps to 50",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "brighten room lights to 45%",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "brighten the bar lights",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "brighten the bar lights to 10",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "brighten the kitchen dining lights",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "brighten the kitchen lights",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "brighten the kitchen lights to 15",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "brighten the living room lamps to 15",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "brighten the living room lights to 15",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "can you turn on the lights in bathroom",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "cancel my adventureworks trip to seattle",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "cancel my meeting at shanghai on monday at 10 am",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "change my 11pm appointment's location to green park",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "change the study to bright",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "check order 324234",
+      "intent": "pizza_status",
+      "entities": [
+        {
+          "entity": "orderId",
+          "startPos": 12,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "check the status of my house",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "check the temperature in the kitchen",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "check the temperature in the living room",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "decrease the home temperature by 88 degrees",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "dim bedroom by half",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "dim bedroom lamp by 20",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "dim bedroom lamp by 3",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "dim bedroom lamp by 8",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "dim bedroom lights to 50",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "dim family room lamps",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "dim family room lights to 15%",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "dim front light",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "dim kitchen entry to 30 %",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "dim kitchen light to 50%",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "dim kitchen lights by 25",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "dim kitchen table lamp",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "dim kitchen to 50%",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "dim living room lamps to 35",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "dim living room light",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "dim living room light by 50%",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "dim living room to 50%",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "dim media room light",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "dim my bathroom light",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "dim my outside lights",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "dim room lights to 78%",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "dim the bar lights to darker",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "dim the bar lights to red",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "dim the bed lights by 10",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "dim the bedroom lamp",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "dim the family room light to 50 %",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "dim the kitchen lights to 10",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "dim the lights in the living room",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "dim the living room floor lamp to 12%",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "dim the living room to 50%",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "dim the office light",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "dim the stairway pendant light",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "dim the stairway pendant light by 70",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "dim the table lights by 10",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "dim the table lights to darker",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "dim the table lights to red",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "for hub front porch light off",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "home switch off the fan",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "how bright is the master bedroom light",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "how cold is it in the family room",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "how cold is it in the porch",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "how cold is it inside",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "how hot is it inside",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i am shubham",
+      "intent": "pizza_order",
+      "entities": []
+    },
+    {
+      "text": "i need the bedroom lights on please",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i need the lights in the dining room turned on",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want a tender pizza",
+      "intent": "pizza_order",
+      "entities": []
+    },
+    {
+      "text": "i want hot sauce",
+      "intent": "pizza_order",
+      "entities": []
+    },
+    {
+      "text": "i want to check my order",
+      "intent": "pizza_status",
+      "entities": []
+    },
+    {
+      "text": "i want to know the status of kitchen's light",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i'll attend this upcoming event in redmond.",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "increase the brightness of bedroom's lamp by half",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "is my bar thermostat on",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "is my city center light on or off",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "is the a/c on in my house",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "is the ac in the balcony on",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "is the bathroom fan on",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "is the fan in the garage running",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "is the fan on in the living room",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "is the fan on in the master bedroom",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "is the front entry switched on",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "is the front yard a/c on",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "is the lamp in the lounge on",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "is the light on in the dining room",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "is the light on in the kitchen",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "is the living room light on",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "is the nook lamp on",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "is the patio a/c on",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "kitchen overhead off",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "kitchen sink off",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "lights off the table",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "lower the brightness in study",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "lower the kitchen light",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "make bedroom light brighter",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "make bedroom lights brighter",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "make dining room lights darker",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "make it colder in here",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "make it cooler outside",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "make it warmer in the home office",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "make it warmer in the pass through",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "make living room's every light on",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "make my house cooler",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "make my kitchen lights brighter",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "make my living room light brighter",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "make my study a little warmer",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "make my study's temperature higher",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "make my whole house colder",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "make the ac in living room set to refrigeration mode",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "make the kitchen warmer",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "make the living area warmer",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "make the room cooler",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "make the temperature in dining room higher",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "march 15 dinner at refectory at 6 pm",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "me rahul",
+      "intent": "pizza_order",
+      "entities": []
+    },
+    {
+      "text": "meet with carol lee at home on march 10th at 4 pm",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "my name is shubham",
+      "intent": "pizza_order",
+      "entities": []
+    },
+    {
+      "text": "new appointment tomorrow at 3 pm at sunken",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "now",
+      "intent": "pizza_order",
+      "entities": []
+    },
+    {
+      "text": "please make it five degrees warmer in here",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "please switch off the living room tv",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "please turn off the kitchen lights",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "please turn off the living room lights",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "please turn on kitchen light",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "please turn on master bathroom lights",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "please turn on my kitchen lights",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "please turn on the kitchen light",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "please turn on tv in the kitchen",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "please turn the living room lights off",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "please turn the second kitchen outlets on",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "raise the brightness in study",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "schedule a buisness lunch for my department at campus restaurant on wednesday at 11 30 am",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "schedule a run at the lake with madden",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "schedule an appointment to groom my dogs at petco on friday at 6 pm",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "schedule dinner with madden at 6 pm on june 4th at spring restaurant",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "set ac soft downstairs",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "set bedroom to 20 kelvin",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "set dining temperature at 73 degrees",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "set lights off in family",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "set lights off in living room",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "set lights off in the main room",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "set lights to dusk in kitchen",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "set lights to low light in master bedroom",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "set living room lights to dusk",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "set living room lights to relax",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "set living room to 18 centigrade",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "set living room to 25 degrees",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "set my couch to 78",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "set office lamp brightness to 21 percent",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "set office lights brightness 23%",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "set study light at 57%",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "set study room temperature at 74",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "set the bedroom light to 79 degrees",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "set the light's location in living room",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "set the temperature of my home living room thermostat to 55 degrees",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "set upstairs lights normal",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "shubham",
+      "intent": "pizza_order",
+      "entities": []
+    },
+    {
+      "text": "shubham bindal",
+      "intent": "pizza_order",
+      "entities": []
+    },
+    {
+      "text": "start up the tv in living room",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "stop bar lamp",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "switch bedroom lights off",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "switch my living room light off",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "switch my study light on",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "switch off kitchen lights",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "switch off my bedroom light",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "switch on living room ac",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "switch on the lamp in nancy's bedroom",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "tell me the color of study's lamp",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "tell me the events scheduled at calendar constitution hall",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "the outdoors lights on",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "this is shubham",
+      "intent": "pizza_order",
+      "entities": []
+    },
+    {
+      "text": "trigger office lights on",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn basement stairs light up",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn bedroom light up",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn dining room light down",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn dining room light off",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn dining room light up",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn down great room lights",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn down living room light at 9 am",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn down my bathroom light by 50 percent",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn down study light 135%",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn down the basement lights",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn down the city center thermostat",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn down the lamp in the living room",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn down the light in the living room",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn entry lamp off",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn fireplace back lights on",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn floor lamp up",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn gameroom lights on",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn hub basement light on",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn hub bedroom lights on",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn hub couch light off",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn hub front light off",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn hub front porch light off",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn hub front porch lights on",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn hub kitchen on",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn hub living room light on",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn kitchen lights to white",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn kitchen west lamp onto 50 %",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn lights off in bedroom",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn living room light on",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn my downstairs light up",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn my front door light down",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn my front door light up",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn my living room light off",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn my study room light down",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn off all home light",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn off all the lights in the dining room",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn off all the office lights",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn off dining lights",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn off family room lamp please",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn off family room lights",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn off front door light",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn off front porch lights",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn off garage light",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn off guest patio lights",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn off joe 's room lights",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn off kitchen overhead light",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn off lights in house",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn off lights in joe 's room",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn off lights in the master",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn off my great room light",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn off my room lights",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn off outdoor lights",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn off outside front lights",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn off table lights",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn off the ac in the living room at 11 o'clock",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn off the family room lights",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn off the lights in office",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn off the lights in the living room",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn off the lights in the livingroom",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn off the livingroom lamp",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn off the outside lights",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn off the upstairs hallway night light",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn off zac 's bedroom light",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on all lights in master bedroom room",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on all master bedroom lights",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on basement lights",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on bedroom light",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on bedside lamp to 20 percent",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on deck lights",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on family room fan",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on family room lamp",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on florida room lights",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on hallway light",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on kitchen table light to 50%",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on laundry room light",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on light in hallway",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on light in living room to 6 am",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on lights at bathroom",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on lights in bedroom at 10 pm",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on lights in dining room",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on lights in master bedroom room",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on living room floor lamp",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on living room lights",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on living room overhead light",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on master bedroom lamp",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on my garage light",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on my tv in living room",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on scene kitchen lights",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on the bedroom light on at six o clock",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on the dining room light",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on the fan in family room",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on the front outside lights",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on the guest patio night light",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on the lamp in my room",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on the lights in kitchen at 10 pm",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on the lights in the bedroom",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on the lights in the guest room",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on the lights masterbedroom at 10%",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on the living room ceiling fan",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on the living room fan from 9 to 10",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on the living room table lamp",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on the upstairs hallway light",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn on tv room lamp east",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn sink light down",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn table lights off",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn the bedroom lights off",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn the masterbedroom light to 50% at 5",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn the outdoors lights on",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn the room light up to 29 %",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn the room up 100 %",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn up livingroom light 165%",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn up master bathroom lights",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn up office light",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn up study room light 200%",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn up the fan in the living room",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn up the lights in the living room",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn up the temperature in my living room by 5 degrees",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "turn yard lights off",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "what does the bedroom thermostat read",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "what does the outdoor thermostat read",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "what is my playroom switch set to",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "what is the brightness of the living room lamp",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "what is the temperature in my bedroom",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "what 's my entertainment center ac set to",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "what 's my garage lamp set to",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "what 's the temperature in my house",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "what 's the temperature in the bar",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "what's the volume level of the tv in my bedroom",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "when do i break up from school",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "when is my next trip to new york",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "where is my order",
+      "intent": "pizza_status",
+      "entities": []
+    }
+  ],
+  "settings": []
+}

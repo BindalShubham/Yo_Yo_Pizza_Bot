@@ -1,0 +1,222 @@
+Label	Weight	Text
+l_General	1	please do nothing
+l_General	1	ok for now
+l_General	1	that is correct
+l_General	1	cancel cancel
+l_General	1	contact the customer service
+l_General	1	i need some assist
+l_General	1	yeah bro
+l_General	1	turn off
+l_General	1	none
+l_General	1	hey stop
+l_General	1	some help
+l_General	1	what about the third one
+l_General	1	is there any real person
+l_General	1	again
+l_General	1	give me some help
+l_General	1	human service
+l_General	1	sounds good to me
+l_General	1	just be
+l_General	1	i have not heard
+l_General	1	get back to the last one
+l_General	1	yeah
+l_General	1	what before that
+l_General	1	no cancel that
+l_General	1	please read it
+l_General	1	fine
+l_General	1	start over
+l_General	1	detail aloud what that says
+l_General	1	i want the second one
+l_General	1	great
+l_General	1	read it out loud
+l_General	1	stop please
+l_General	1	dismiss
+l_General	1	read that out loud
+l_General	1	no i don't want that
+l_General	1	repeat
+l_General	1	no no go back to
+l_General	1	cancel it
+l_General	1	would you read that out loud please
+l_General	1	previous one
+l_General	1	none none
+l_General	1	select a random choice
+l_General	1	yeah go for it
+l_General	1	what's after that
+l_General	1	opt for the last one
+l_General	1	say that again
+l_General	1	restart it
+l_General	1	never
+l_General	1	tell me the current text on screen
+l_General	1	return
+l_General	1	yeah buddy
+l_General	1	not exactly
+l_General	1	i want fourth
+l_General	1	end it
+l_General	1	yeah baby
+l_General	1	yes
+l_General	1	go back to last one
+l_General	1	give me more
+l_General	1	back to last
+l_General	1	i want right one
+l_General	1	never mind
+l_General	1	what does the page say
+l_General	1	could you tell me what that says
+l_General	1	shut the fuck up
+l_General	1	none of them thank you
+l_General	1	submit
+l_General	1	never mind cancel
+l_General	1	read file aloud
+l_General	1	pardon
+l_General	1	no no no
+l_General	1	who can help me
+l_General	1	read it
+l_General	1	return to the previous one
+l_General	1	shut up
+l_General	1	show me the next
+l_General	1	yeah cool
+l_General	1	read my to list
+l_General	1	show the next two options
+l_General	1	read to me
+l_General	1	i like the bottom one
+l_General	1	sorry
+l_General	1	anyone is fine
+l_General	1	read me this page
+l_General	1	thank you yes
+l_General	1	oh don't do that
+l_General	1	ya
+l_General	1	read this page aloud
+l_General	1	i like upper right
+l_General	1	read page aloud
+l_General	1	select no.5
+l_General	1	sounds good
+None	1	i want them all
+q_Chitchat	1	Goodbye
+q_Chitchat	1	Where's your house
+q_Chitchat	1	How are you doing
+q_Chitchat	1	Hahaha
+q_Chitchat	1	Give me a kiss
+q_Chitchat	1	You're not funny.
+q_Chitchat	1	BRB
+q_Chitchat	1	Yes, that's true
+q_Chitchat	1	I'm sorry
+q_Chitchat	1	Are you a man or a woman
+q_Chitchat	1	Nice to meet you
+q_Chitchat	1	I am alone
+q_Chitchat	1	Everything you told me was false.
+q_Chitchat	1	Can you fly
+q_Chitchat	1	It's my pleasure
+q_Chitchat	1	You're so happy
+q_Chitchat	1	What kind of candy do you like
+q_Chitchat	1	Here's a kiss for you
+q_Chitchat	1	I am happy
+q_Chitchat	1	What are you doing
+q_Chitchat	1	Ask me a question.
+q_Chitchat	1	Are you trans
+q_Chitchat	1	I beg your pardon
+q_Chitchat	1	That was funny
+q_Chitchat	1	Are you hungry
+q_Chitchat	1	Are you male or female
+q_Chitchat	1	Have you met Cortana
+q_Chitchat	1	Are you a lesbian
+q_Chitchat	1	Fist bump!
+q_Chitchat	1	I think you're so pretty
+q_Chitchat	1	Am I a fool
+q_Chitchat	1	I appreciate it
+q_Chitchat	1	Am I good-looking
+q_Chitchat	1	I'd like to take you out on a date
+q_Chitchat	1	Where are you
+q_Chitchat	1	Why is that
+q_Chitchat	1	What's your mom's name
+q_Chitchat	1	What age are you
+q_Chitchat	1	Who's your boss
+q_Chitchat	1	Who's smarter, me or you
+q_Chitchat	1	What's going on
+q_Chitchat	1	Hold on a sec
+q_Chitchat	1	Have you ever sung a song
+q_Chitchat	1	Tell me a joke
+q_Chitchat	1	What kind of food do you like
+q_Chitchat	1	You must hate me.
+q_Chitchat	1	Give me a fist bump
+q_Chitchat	1	Do you have sisters
+q_Chitchat	1	Are you real
+q_Chitchat	1	Ask me something.
+q_Chitchat	1	Can you chat with me
+q_Chitchat	1	I'm despondent
+q_Chitchat	1	Are you straight
+q_Chitchat	1	I'm famished
+q_Chitchat	1	I am a Democrat
+q_Chitchat	1	Are you smarter than me
+q_Chitchat	1	Don't you get hungry
+q_Chitchat	1	You're really smart
+q_Chitchat	1	Why do you hate me
+q_Chitchat	1	I hate you
+q_Chitchat	1	What is wrong with you!
+q_Chitchat	1	Be my friend
+q_Chitchat	1	Testing
+q_Chitchat	1	Are you queer
+q_Chitchat	1	I love getting valentines.
+q_Chitchat	1	ROFL
+q_Chitchat	1	It's really nice to meet you
+q_Chitchat	1	I'm just kidding around
+q_Chitchat	1	I'm so bored
+q_Chitchat	1	Who's your favorite singer
+q_Chitchat	1	How are things
+q_Chitchat	1	Why do you say the same thing all the time
+q_Chitchat	1	What did you do yesterday
+q_Chitchat	1	What is the meaning of life
+q_Chitchat	1	You are so annoying!
+q_Chitchat	1	I am going on a run
+q_Chitchat	1	Do you know any songs
+q_Chitchat	1	Butterface.
+q_Chitchat	1	What are you doing right now
+q_Chitchat	1	I wish you just go away.
+q_Chitchat	1	Have a good night
+q_Chitchat	1	You're nice!
+q_Chitchat	1	Can you hear me now
+q_Chitchat	1	How do you feel about working late
+q_Chitchat	1	You are so unfunny.
+q_Chitchat	1	Are you pansexual
+q_Chitchat	1	Which people made you
+q_Chitchat	1	Do you like Siri
+q_Chitchat	1	Are you with the CIA
+q_Chitchat	1	I despise you
+q_Chitchat	1	Do you have a family
+q_Chitchat	1	There
+q_Chitchat	1	That's true
+q_Chitchat	1	I'm into it
+q_Chitchat	1	I want to be your friend.
+q_Chitchat	1	Later
+q_Chitchat	1	Sing something
+q_Chitchat	1	Who's your favorite team
+q_Chitchat	1	Can we chat
+q_Chitchat	1	What's your favorite song
+q_Chitchat	1	Merry Christmas
+q_Chitchat	1	Good night
+q_Chitchat	1	Do you love anyone
+q_Chitchat	1	Getting tired of you
+q_Chitchat	1	Hi Siri
+q_Chitchat	1	Who do you love
+q_Chitchat	1	I miss you
+q_Chitchat	1	You're so boring
+q_Chitchat	1	I miss you so much!
+q_Chitchat	1	Do you get hungry
+q_Chitchat	1	Kthx
+q_Chitchat	1	Do you think I look good
+q_Chitchat	1	I just want to go to sleep
+q_Chitchat	1	What are you up to
+q_Chitchat	1	I wish I could hug you
+q_Chitchat	1	Say something funny
+q_Chitchat	1	I can't think of anything I want to do
+q_Chitchat	1	You're very intelligent
+q_Chitchat	1	I want you to be my husband
+q_Chitchat	1	You don't interest me at all
+q_Chitchat	1	I'm from there
+q_Chitchat	1	Thank you so much
+q_Chitchat	1	Basic af
+q_Chitchat	1	What's happening
+q_Chitchat	1	I didn't mean that
+q_Chitchat	1	Do I look good in blue
+q_Chitchat	1	Are you better looking than me
+q_Chitchat	1	Do you know me
+q_Faq	1	How do I raise a bug
+q_Faq	1	What can the Calendar Skill do

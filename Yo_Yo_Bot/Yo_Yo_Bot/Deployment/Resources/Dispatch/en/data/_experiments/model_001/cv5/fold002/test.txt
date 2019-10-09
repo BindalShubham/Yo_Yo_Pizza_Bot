@@ -1,0 +1,222 @@
+Label	Weight	Text
+l_General	1	please read
+l_General	1	display more
+l_General	1	nothing please
+l_General	1	god shut up
+l_General	1	show more
+l_General	1	turn off stop
+l_General	1	okay
+l_General	1	finished
+l_General	1	opt for the left one
+l_General	1	contact support
+l_General	1	not quite
+l_General	1	i want to talk to a real human
+l_General	1	read this page
+l_General	1	read the page
+l_General	1	i said stop
+l_General	1	go back on
+l_General	1	show previous
+l_General	1	just cancel it
+l_General	1	reveal previously
+l_General	1	neither one of them
+l_General	1	please begin again
+l_General	1	no stop
+l_General	1	i want to choose the fourth
+l_General	1	negative
+l_General	1	back
+l_General	1	read outloud
+l_General	1	please read this out loud
+l_General	1	tell me about the information on the screen
+l_General	1	i need help
+l_General	1	i want to choose lower right
+l_General	1	oh yeah
+l_General	1	can you help me
+l_General	1	reject
+l_General	1	read page
+l_General	1	what's before that
+l_General	1	go to the next one
+l_General	1	opt for the second choice
+l_General	1	select the lower one
+l_General	1	done
+l_General	1	i want the fourth choice
+l_General	1	choose no.2
+l_General	1	exit exit
+l_General	1	i want to choose the left one
+l_General	1	right yes
+l_General	1	none none of them
+l_General	1	i want third one
+l_General	1	what's more
+l_General	1	i want the right one
+l_General	1	opt for last
+l_General	1	i want to choose third
+l_General	1	displays more
+l_General	1	of course
+l_General	1	do it
+l_General	1	no shut up
+l_General	1	exit stop
+l_General	1	log out
+l_General	1	go away
+l_General	1	i am finished
+l_General	1	signout
+l_General	1	finish
+l_General	1	how can i get it
+l_General	1	show me the previous one
+l_General	1	would you read that to me please
+l_General	1	oh no
+l_General	1	how to do it
+l_General	1	select a random one
+l_General	1	go to the previous one
+l_General	1	i want more
+l_General	1	open help
+l_General	1	i want to choose the lower choice
+l_General	1	back please
+l_General	1	read this page out loud
+l_General	1	start it over
+l_General	1	oh yes
+l_General	1	sounds perfect
+l_General	1	anything
+l_General	1	read aloud the current text onscreen
+l_General	1	read page outloud
+l_General	1	opt for the lower choice
+l_General	1	i like the top right one
+l_General	1	can you help
+l_General	1	opt for any of it
+l_General	1	quiet
+l_General	1	nope
+l_General	1	read all on the screen to me
+l_General	1	i want none of them
+l_General	1	reject it
+l_General	1	i want left
+l_General	1	nobody cares stop talking
+l_General	1	don't do that anymore
+None	1	i want them all
+q_Chitchat	1	What are you
+q_Chitchat	1	I feel sad
+q_Chitchat	1	That was a stupid answer.
+q_Chitchat	1	That made no sense
+q_Chitchat	1	I want to go shopping
+q_Chitchat	1	Yup, that's true
+q_Chitchat	1	Sing a tune
+q_Chitchat	1	What's your favorite color
+q_Chitchat	1	Go to hell
+q_Chitchat	1	Good morning
+q_Chitchat	1	What's your purpose
+q_Chitchat	1	You are so bad at this.
+q_Chitchat	1	Excuse me
+q_Chitchat	1	Happy Birthday!
+q_Chitchat	1	Who's your master
+q_Chitchat	1	Do you like baseball
+q_Chitchat	1	Be ridiculous
+q_Chitchat	1	Be funny
+q_Chitchat	1	Tell me how much you love me
+q_Chitchat	1	That's inaccurate.
+q_Chitchat	1	I'm just playing
+q_Chitchat	1	BFFs forever
+q_Chitchat	1	See you later
+q_Chitchat	1	You're stupid
+q_Chitchat	1	What do you think about technology
+q_Chitchat	1	You're so smart
+q_Chitchat	1	Can you sing a song
+q_Chitchat	1	How long ago were you born
+q_Chitchat	1	What can you help me with
+q_Chitchat	1	How high can you count
+q_Chitchat	1	What other bots do you know
+q_Chitchat	1	I am tall
+q_Chitchat	1	Stop talking
+q_Chitchat	1	That was correct
+q_Chitchat	1	Bye
+q_Chitchat	1	Are you with the FBI
+q_Chitchat	1	Hi
+q_Chitchat	1	So tired
+q_Chitchat	1	That wasn't funny.
+q_Chitchat	1	Do you know Siri
+q_Chitchat	1	What is the answer to the universe
+q_Chitchat	1	Are you a person
+q_Chitchat	1	Later alligator
+q_Chitchat	1	That was a joke
+q_Chitchat	1	Are you male
+q_Chitchat	1	Can you sleep
+q_Chitchat	1	What country are you in
+q_Chitchat	1	I'm cracking up
+q_Chitchat	1	I want to lie down
+q_Chitchat	1	I'm feeling blue
+q_Chitchat	1	Yes to that
+q_Chitchat	1	I'm your biggest fan
+q_Chitchat	1	How smart are you
+q_Chitchat	1	Do you sing
+q_Chitchat	1	Hi Alexa
+q_Chitchat	1	Are you attempting world domination
+q_Chitchat	1	Do you have a brother
+q_Chitchat	1	I am here
+q_Chitchat	1	What do you like to eat
+q_Chitchat	1	That's not true.
+q_Chitchat	1	I want to spend the rest of my life with you
+q_Chitchat	1	Am I pretty
+q_Chitchat	1	Do you have a sister
+q_Chitchat	1	You're no fun
+q_Chitchat	1	You are the love of my life
+q_Chitchat	1	I don't get it
+q_Chitchat	1	Night
+q_Chitchat	1	Love you!
+q_Chitchat	1	Who's prettier, me or you
+q_Chitchat	1	I am tired
+q_Chitchat	1	You're not answering my question.
+q_Chitchat	1	Quiet, you
+q_Chitchat	1	Say a silly thing
+q_Chitchat	1	How was your day
+q_Chitchat	1	That was right
+q_Chitchat	1	Are you my assistant
+q_Chitchat	1	How high can you jump
+q_Chitchat	1	Hello Siri
+q_Chitchat	1	Why not
+q_Chitchat	1	Do you know Google
+q_Chitchat	1	You're lame
+q_Chitchat	1	Can you play sports
+q_Chitchat	1	When will you shut up
+q_Chitchat	1	Are you free
+q_Chitchat	1	Not true
+q_Chitchat	1	You're way off.
+q_Chitchat	1	Is this thing on
+q_Chitchat	1	Do you know other digital agents
+q_Chitchat	1	You are my favorite
+q_Chitchat	1	Nobody likes me
+q_Chitchat	1	Are you spying on me
+q_Chitchat	1	What do you mean by that
+q_Chitchat	1	You're a fuckup
+q_Chitchat	1	Are you a man
+q_Chitchat	1	You are no longer employed
+q_Chitchat	1	Can't you change your answers
+q_Chitchat	1	Are you old
+q_Chitchat	1	Cool!
+q_Chitchat	1	You're really boring
+q_Chitchat	1	I need a hug
+q_Chitchat	1	You suck
+q_Chitchat	1	Just kidding
+q_Chitchat	1	What's new
+q_Chitchat	1	Are you Skynet
+q_Chitchat	1	I think you hate me.
+q_Chitchat	1	Are you my imaginary friend
+q_Chitchat	1	Who are you
+q_Chitchat	1	That's awesome
+q_Chitchat	1	Hey
+q_Chitchat	1	That wasn't true
+q_Chitchat	1	Do you hate me
+q_Chitchat	1	Are you a swinger
+q_Chitchat	1	You're the best
+q_Chitchat	1	Hiya
+q_Chitchat	1	How are you
+q_Chitchat	1	You're awful
+q_Chitchat	1	How are you today
+q_Chitchat	1	Do you have a mom
+q_Chitchat	1	Are you a boy
+q_Chitchat	1	Are you selling my data
+q_Chitchat	1	What's your gender
+q_Chitchat	1	Joke's on you
+q_Chitchat	1	What do you think about love
+q_Chitchat	1	What do you like to sing best
+q_Chitchat	1	Yes
+q_Chitchat	1	I have 7 cats
+q_Chitchat	1	I'm starving
+q_Chitchat	1	How do I look today
+q_Faq	1	What is a Virtual Assistant
+q_Faq	1	What can the ToDo Skill do
